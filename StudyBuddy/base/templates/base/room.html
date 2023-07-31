@@ -1,10 +1,23 @@
-{% extends 'layout.html' %}
+{% extends 'main.html' %}
 {% block content %}
 <h1>Room template</h1>
 <div>
     <p>
         {{room.name}}
     </p>
+    <p>
+        {{room.description}}
+    </p>
+    <p>
+        {{room.topic.name}}
+    </p>
+    <p>
+        {{room.host}}
+    </p>
+    <p>
+        {{room.created}}
+    </p>
+
 
 </div>
 {% endblock content %}
