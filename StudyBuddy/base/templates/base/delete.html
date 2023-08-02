@@ -2,6 +2,7 @@
 {% block content %}
 
 <form method="post">
+
    {% csrf_token %}
    <p>are you sure you want to delete it "{{obj}}"?</p>
    <a href="{{request.META.HTTP_REFERER}}">Cancel</a>
