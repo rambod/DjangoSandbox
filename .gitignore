@@ -28,6 +28,8 @@ venv/
 virtualenv/
 ENV/
 .env
+node_modules
+venv_dht
 
 # Editor/IDE specific
 .vscode/
