@@ -1,5 +1,5 @@
 """
-URL configuration for django_tailwind_htmx project.
+URL configuration for eCommerce project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,12 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from core.views import index
+from core.views import frontPage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name ='index'),
-    path("/sd",index, name ='index'),
-    pa
-    
+    path('', frontPage),
 ]

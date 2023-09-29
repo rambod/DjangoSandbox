@@ -30,6 +30,7 @@ ENV/
 .env
 node_modules
 venv_dht
+ecvenv
 
 # Editor/IDE specific
 .vscode/
